@@ -4,12 +4,6 @@ public class _QuickSort
 
 	public static String[] sort(String sqcStringInner[])
 	{
-		if (sqcStringInner == null || sqcStringInner.length == 0)
-		{
-			System.err.println("String array is null or empty");
-			return null;
-		}
-
 		sqcStringLocal = sqcStringInner;
 		quicksort(0, sqcStringLocal.length - 1);
 
